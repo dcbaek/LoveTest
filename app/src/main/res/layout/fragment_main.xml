@@ -21,20 +21,20 @@
     <ImageView
         android:layout_width="260dp"
         android:layout_height="400dp"
-        android:layout_marginTop="60dp"
         android:src="@drawable/main_img"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="214dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="594dp" />
+        tools:layout_editor_absoluteY="651dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
